@@ -21,12 +21,14 @@ function summonCaptainPlanet(planeteerCalls){
  }
  
  
- //
+ //takes array and tells us if any elements are longer than 4 characters
+ //used for loop counter that will identify if length of each element is greater than 4, returns false if not
 function longPlaneteerCalls(words) {
   	for(var i = 0; i < words.length; i++) {
 		if(words[i].length > 4) {
 			return true;
-		}
+		}learn save
+		
 	}
 	return false;
 }
