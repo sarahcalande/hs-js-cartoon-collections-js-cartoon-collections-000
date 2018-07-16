@@ -27,12 +27,16 @@ function longPlaneteerCalls(words) {
   	for(var i = 0; i < words.length; i++) {
 		if(words[i].length > 4) {
 			return true;
-		}learn save
-		
-	}
+		}
+  	}
 	return false;
 }
 
+//takes array of strings and returns first string that is a cheese
+// need to create array with known cheeses
+//use counter to run through the foods array
+//use indexof method to test if any elements match
+//else return no cheese
 function findTheCheese (foods) {
   	var cheese = ["camembert", "cheddar", "gouda"];
 	for(var i = 0; i < foods.length; i++) {
