@@ -1,6 +1,7 @@
 //take dwarves array and turn it to a string with numbered dwarves
 //return string w/ numbered dwarves
-
+//used for loop counter
+//i+1 bc index starts at 0
 function dwarfRollCall(dwarves) {
     var answer = '';
  for (var i = 0; i < dwarves.length; i++){
@@ -9,7 +10,8 @@ function dwarfRollCall(dwarves) {
  return answer;
 }
 
-
+//array of planeteer calls, converts each element to uppercase w/ exclamation
+//create new array that runs through a counter and pushes each element to upper case w/ exclamation and returns new array
 function summonCaptainPlanet(planeteerCalls){
    var newPlanet = [];
    for(var i = 0; i < planeteerCalls.length; i++) {
@@ -18,6 +20,8 @@ function summonCaptainPlanet(planeteerCalls){
    return newPlanet; 
  }
  
+ 
+ //
 function longPlaneteerCalls(words) {
   	for(var i = 0; i < words.length; i++) {
 		if(words[i].length > 4) {
