@@ -1,3 +1,6 @@
+//take dwarves array and turn it to a string with numbered dwarves
+//return string w/ numbered dwarves
+
 function dwarfRollCall(dwarves) {
     var answer = '';
  for (var i = 0; i < dwarves.length; i++){
