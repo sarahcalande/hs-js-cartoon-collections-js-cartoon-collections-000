@@ -53,7 +53,10 @@ function wordsWithB(words){
   var newArr = [];
   for (var i = 0; i < words.length; i++){
     var bWords = words[i]
-   if (bWords.indexOf('b') !== -1)
+   if (bWords.includes('b')){
+     newArr.push(bWords)
+   }
   }
+  
  return newArr; 
 }
