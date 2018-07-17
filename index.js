@@ -1,4 +1,4 @@
-//take dwarves array and turn it to a string with numbered dwarves
+//take dwarve names array and turn it to a string with numbered dwarves
 //return string w/ numbered dwarves
 //used for loop counter
 //i+1 bc index starts at 0
